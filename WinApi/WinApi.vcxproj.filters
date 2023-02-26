@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API FrameWork">
+      <UniqueIdentifier>{b24f3cdb-4b17-422a-895c-4a228e4ceedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Utility">
+      <UniqueIdentifier>{be7400a9-fae9-450b-9772-1a7f88b7433d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Utility\Math">
+      <UniqueIdentifier>{4b061140-402e-4ce8-8b95-0d721679e1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\DesignPattern">
+      <UniqueIdentifier>{9925c4aa-6b9c-4cee-ae0b-ecf659738cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\GameCore">
+      <UniqueIdentifier>{0ef676e8-e4a2-4e78-a23b-171f9fc4b494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Image">
+      <UniqueIdentifier>{0f1e22b2-7f58-4abf-8bbc-538e002c1694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{a2e88819-dbf2-49df-a0a2-5071054e21e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Collision">
+      <UniqueIdentifier>{c647031c-fbf1-4a04-9871-a7fdb70de467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Object">
+      <UniqueIdentifier>{506fa75a-34b0-42e1-8830-5aa22dd25dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\PCH">
+      <UniqueIdentifier>{3769b8fa-5bb9-4840-89fa-20cdec265690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API FrameWork\Manager">
+      <UniqueIdentifier>{805c5d89-da55-4a99-858f-b92eabbdc7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\SonicScene">
+      <UniqueIdentifier>{d9ebfad0-c133-4674-8ef1-80a88ed02a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\SonicScene\Scene">
+      <UniqueIdentifier>{db49fb39-f63e-443f-a4ac-6881ac72f8eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\SonicScene\Player">
+      <UniqueIdentifier>{98fc73c6-fc64-437c-be1b-edf79b0c8e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\SonicScene\Enemy">
+      <UniqueIdentifier>{6b6acedb-1e47-45e0-9f76-e295b7d23d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\SonicScene\Object">
+      <UniqueIdentifier>{cad1547f-0cc6-49a7-85e3-784bf84132dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C3DMatrix.cpp">
+      <Filter>API FrameWork\Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C3DVector.cpp">
+      <Filter>API FrameWork\Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>API FrameWork\PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>API FrameWork\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="GImage.cpp">
+      <Filter>API FrameWork\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="IWindowMessage.cpp">
+      <Filter>API FrameWork\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>API FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>API FrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TempSoundManager.cpp">
+      <Filter>API FrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>API FrameWork\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelCollision.cpp">
+      <Filter>API FrameWork\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sonic.cpp">
+      <Filter>MainGame\SonicScene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="debugScene.cpp">
+      <Filter>MainGame\SonicScene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>MainGame\SonicScene\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Motobug.cpp">
+      <Filter>MainGame\SonicScene\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>API FrameWork\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>MainGame\SonicScene\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C3DMatrix.h">
+      <Filter>API FrameWork\Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C3DVector.h">
+      <Filter>API FrameWork\Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMacroFunction.h">
+      <Filter>API FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>API FrameWork\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>API FrameWork\DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>API FrameWork\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>API FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GImage.h">
+      <Filter>API FrameWork\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="IWindowMessage.h">
+      <Filter>API FrameWork\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TempSoundManager.h">
+      <Filter>API FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>API FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>API FrameWork\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelCollision.h">
+      <Filter>API FrameWork\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Sonic.h">
+      <Filter>MainGame\SonicScene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="debugScene.h">
+      <Filter>MainGame\SonicScene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>MainGame\SonicScene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Motobug.h">
+      <Filter>MainGame\SonicScene\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>API FrameWork\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>MainGame\SonicScene\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
