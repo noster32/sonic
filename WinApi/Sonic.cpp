@@ -953,8 +953,6 @@ void Sonic::sonicCollision(void)
                 _sSonic.onEdge = false;
             }
 
-
-
             if (position.y >= i - 24 && onPixel)
             {
                 position.y = i - 24;
@@ -1121,14 +1119,12 @@ void Sonic::sonicRotateCal(void)
             else
                 left++;
         }
-
         while (true)
         {
             COLORREF color = GetPixel(IMAGEMANAGER->findImage("debugMap")->getMemDC(), _underRightX, _probeY + right);
             int r = GetRValue(color);
             int g = GetGValue(color);
             int b = GetBValue(color);
-
 
             if (!(r == 255 && g == 0 && b == 255))
             {
@@ -1142,9 +1138,7 @@ void Sonic::sonicRotateCal(void)
             _sonicRotate = 0;
             return;
         }
-            
         float angle = (right - left) * 1.4f;
-
         _sonicRotate = (atan((angle) / 48.0f) * 180.0f / M_PI);
     }
 }

@@ -45,7 +45,7 @@ void debugScene::release(void)
 void debugScene::update(void)
 {
 
-    TEMPSOUNDMANAGER->playSoundWithKey("GHZBGM");
+    //TEMPSOUNDMANAGER->playSoundWithKey("GHZBGM");
     _count++;
     if (_count % 12300 == 0)
     {
