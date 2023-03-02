@@ -20,10 +20,6 @@ void Coin::update()
 
 	COLORREF color = GetPixel(world, x, y + 8);
 
-	int r = GetRValue(color);
-	int g = GetGValue(color);
-	int b = GetBValue(color);
-
 	if (color != RGB(255, 0, 255))
 	{
 		bottomCollide = true;

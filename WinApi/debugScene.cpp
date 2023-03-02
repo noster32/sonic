@@ -10,8 +10,6 @@ HRESULT debugScene::init(void)
 
    TEMPSOUNDMANAGER->addMp3FileWithKey("GHZBGM", "Resources/Sound/GHZbgm.mp3");
 
-    
-
     IMAGEMANAGER->addImage("debugMap", "Resources/Images/BackGround/GHZc1.bmp", ww, wh);
     IMAGEMANAGER->addImage("sky1", "Resources/Images/BackGround/sky1.bmp", ww, 32, true, RGB(255, 0, 255));
     IMAGEMANAGER->addImage("sky2", "Resources/Images/BackGround/sky2.bmp", ww, 32, true, RGB(255, 0, 255));
@@ -92,7 +90,6 @@ void debugScene::update(void)
             iter++;
     }
 
-
     if (_sonic->getIsHit() && _sonic->getEatCoin() > 0)
     {
         eatRing = 0;
@@ -100,11 +97,6 @@ void debugScene::update(void)
         _sonic->setEatCoin(0);
         TEMPSOUNDMANAGER->playEffectSoundWave("Resources/Sound/LoseRings");
     }
-
-
-
-
-  
 
 };
 
@@ -131,6 +123,7 @@ void debugScene::render(void)
     {
         _coin->frameRender(getMemDC(), c.getX() - cx, c.getY() - cy);
     }
+
 }
 
 void debugScene::coinSpread(void)

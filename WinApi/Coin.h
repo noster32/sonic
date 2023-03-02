@@ -22,6 +22,7 @@ public:
 	int getY() { return y; }
 
 	void setV(int x, int y) { vx = x; vy = y; }
+	void renderVXVY(HDC hdc);
 	void setLost() { lost = true; }
 };
 

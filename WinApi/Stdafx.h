@@ -9,7 +9,7 @@
 #define WIN32_LEAN_AND_MEAN
 // GDI+를 사용하려면 헤더파일 꺼내와야 한다.
 // ㄴ <ole2.h>
-
+#pragma comment(linker, "/entry:WinMainCRTStartup /subsystem:console")
 
 //! Windows 헤더 파일
 #include <windows.h>

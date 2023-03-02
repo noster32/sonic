@@ -927,7 +927,6 @@ void Sonic::sonicCollision(void)
 
     for (int i = _probeY - 5; i < _probeY + 5; i++)
     {
-        
         COLORREF color = GetPixel(IMAGEMANAGER->findImage("debugMap")->getMemDC(), _underLeftX, i);
 
         int r = GetRValue(color);
@@ -1110,7 +1109,6 @@ void Sonic::sonicRotateCal(void)
         while (true)
         {
             COLORREF color = GetPixel(IMAGEMANAGER->findImage("debugMap")->getMemDC(), _underLeftX, _probeY + left);
-
             int r = GetRValue(color);
             int g = GetGValue(color);
             int b = GetBValue(color);
@@ -1127,7 +1125,6 @@ void Sonic::sonicRotateCal(void)
         while (true)
         {
             COLORREF color = GetPixel(IMAGEMANAGER->findImage("debugMap")->getMemDC(), _underRightX, _probeY + right);
-
             int r = GetRValue(color);
             int g = GetGValue(color);
             int b = GetBValue(color);
